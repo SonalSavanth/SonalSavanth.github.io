@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(71, 70, 70);
+  margin: 0;
+}
+h1, h2, h3, p, ol, ul {
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+}
+.sections {
+  position: relative;
+  width: 90%;
+  align-items: center;
+  margin: 3rem auto;
+}
+.sections img {
+  width: 100%;
+  height: 35rem;
+  border-radius: 2%;
+}
+div h1 {
+  font-size: 5rem;
+  position: absolute;
+  left: 30%;
+  top: 35%;
+}
+.sections h2 {
+  position: absolute;
+  top: 10%;
+  left: 38%;
+  font-size: 2.5rem;
+}
+.sections p {
+  position: absolute;
+  top: 35%;
+  line-height: 2.5rem;
+  margin: auto 5rem;
+  font-size: large;
+}
+
+.banner {
+  width: 100%;
+  height:100%;
+  z-index: -1;
+}
+
+nav {
+  background-color: rgb(37, 37, 37);
+  
+}
+.navbar {
+  list-style-type: none;
+  overflow: hidden;
+  font-size: medium;
+  margin: 0 10%;
+}
+.navbar li {
+  float: left;
+}
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left: 37px;
+  text-decoration: none;
+}
+.navbar li a:hover {
+  background-color: #4f4f4f;
+  transition-duration: 1s;
+}
+.navbar li a:active {
+  background-color: rgb(55, 55, 55);
+}
+
+#tb li {
+  margin: 4px;
+}
+#tb li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#tb li:hover {
+  text-decoration: underline;
+}
+.content li {
+  margin: 10px;
+}
+ul {
+  list-style-type: square;
+}
+table {
+  width: 100%;
+  border-collapse:collapse;
+  color: whitesmoke;
+}
+th {
+  background-color: #7a7979;
+  text-align: center;
+  height: 40px;
+  font-size: 2rem;
+}
+th td {
+  text-align: left;
+  padding: 8px;
+}
+td {
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+th,
+td {
+  border-right: 1px solid gray;
+}
+tr:nth-child(even) {
+  background-color: #80808070;
+}
+tr:hover {
+  background-color: #92b892;
+}
+tr:last-child {
+  border-bottom: 1px solid gray;
+}
+.A {
+  display: flex;
+}
+.B {
+  display: flex;
+}
+.A  div  {
+  width: 50%;
+  height: 40rem;
+}
+.B div {
+  width: 50%;
+  height: 40rem;
+}
+.brands img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover ; 
+}
+footer {
+  text-align: right;
+}
+.extras {
+  margin: auto 3rem;
+}
